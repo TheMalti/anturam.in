@@ -108,7 +108,6 @@ strong.sep-two {
   font-size: 19px;
   color: #ffffff;
   line-height: 34px;
-  padding: 0 30%;
 }
 
 #middle {
@@ -123,8 +122,10 @@ strong.sep-two {
   font-size: 18px;
   color: #000000;
   line-height: 34px;
-  padding: 0 25%;
+  max-width: 577px;
+  margin: 0 auto;
 }
+
 
 #middle strong.sep-one {
   width: 32px;
@@ -238,7 +239,7 @@ ul.social li.youtube:hover {
   }
 
   #middle p {
-    font-size: 18px;
+    font-size: 16px;
     color: #000000;
     line-height: 24px;
     padding: 0;
