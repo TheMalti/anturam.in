@@ -17,7 +17,9 @@ address, caption, dfn, th, var {
   font-style: normal;
   font-weight: normal;
 }
-
+.logo{
+  width: 115px;
+}
 li {
   list-style: none;
 }
@@ -68,7 +70,7 @@ body {
 
 #header {
   width: 100%;
-  padding: 100px 0 100px 0;
+  padding: 100px 0 20px 0;
   margin: auto;
 }
 
@@ -83,7 +85,7 @@ h2 {
   letter-spacing: 4px;
 }
 
-h2 strong.sep-one {
+strong.sep-one {
   width: 60px;
   height: 1px;
   background: #fff;
@@ -92,7 +94,7 @@ h2 strong.sep-one {
   margin-top: 15px;
 }
 
-h2 strong.sep-two {
+strong.sep-two {
   width: 60px;
   height: 1px;
   background: #fff;
@@ -118,10 +120,28 @@ h2 strong.sep-two {
 
 #middle p {
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 19px;
+  font-size: 18px;
   color: #000000;
   line-height: 34px;
-  padding: 0 30%;
+  padding: 0 25%;
+}
+
+#middle strong.sep-one {
+  width: 32px;
+  height: 1px;
+  background: #e67445;
+  position: absolute;
+  margin-left: -46px;
+  margin-top: 15px;
+}
+
+#middle strong.sep-two {
+  width: 32px;
+  height: 1px;
+  background: #e67445;
+  position: absolute;
+  margin-left: 14px;
+  margin-top: 15px;
 }
 
 #middle p span {
@@ -199,13 +219,13 @@ ul.social li.youtube:hover {
     letter-spacing: 2px;
   }
 
-  h2 strong.sep-one {
+  strong.sep-one {
     width: 30px;
     margin-left: -40px;
     margin-top: 7px;
   }
 
-  h2 strong.sep-two {
+  strong.sep-two {
     width: 30px;
     margin-left: 10px;
     margin-top: 7px;
