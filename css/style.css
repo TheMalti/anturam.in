@@ -205,6 +205,9 @@ ul.social li.youtube:hover {
 }
 
 @media screen and (max-width: 568px) {
+  body{
+        background-position: 86% 50%;
+  }
   #header {
     width: 100%;
     padding: 30px 0 30px 0;
